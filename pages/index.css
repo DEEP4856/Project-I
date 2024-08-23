@@ -51,3 +51,49 @@
 .navbar-toggler {
     padding: 0.25rem 0.75rem;
 }
+
+/* our services */
+/* .image-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    
+}
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.image-gap {
+    padding: 10px; 
+}
+.container .row{
+    margin-top: 445px;
+} */
+.services .heading{
+    margin-top: 13em;
+    text-align: center;
+    color: #410c1c;
+}
+
+ .card1 {
+    background-color: #c98a56fb; 
+    color: white; 
+    height: 26em;
+}
+ .card2 {
+    background-color: #410c1c; 
+    color: white;
+    height: 26em; 
+}
+ .card3 {
+    background-color: #c98a56fb; 
+    color: white; 
+    height: 26em;
+}
+.card-body{
+    text-align: center;
+}
+ .row-gap{
+    margin-top: 50px;
+}
