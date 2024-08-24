@@ -11,3 +11,26 @@ document.addEventListener('DOMContentLoaded', function () {
         myModal.hide();
     });
 });
+
+
+// typing component
+document.addEventListener('DOMContentLoaded', function() {
+    const captionElement = document.getElementById('typing-caption');
+    const text = captionElement.textContent;
+    const speed = 100; 
+    let index = 0;
+    captionElement.textContent = '';
+
+    function type() {
+        if (index < text.length) {
+          
+            captionElement.textContent += text.charAt(index);
+            index++;
+            setTimeout(type, speed);
+        }
+    }
+
+    type();
+});
+
+// gallery imaGE MODAL LOGIC
