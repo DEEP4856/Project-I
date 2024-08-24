@@ -22,6 +22,12 @@
 li .nav-link{
     font-size: larger;
 }
+
+.nav-logo-img{
+    height: 121px;
+            width: 121px;
+            margin-left: 36px;
+}
 /* top navbar */
 
 
@@ -234,7 +240,7 @@ li .nav-link{
 
 /* contactus page section */
 .large-box {
-    background-color: #44312b; 
+    background-color: #410c1c; 
     padding: 40px;
     border-radius: 10px;
     margin-bottom: 30px;
@@ -264,7 +270,7 @@ li .nav-link{
 
 /* map box starts */
 .map-box {
-    background-color: #553f37; 
+    background-color: #410c1c; 
     padding: 20px;
     border-radius: 8px;
     margin: 20px 0;
