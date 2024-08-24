@@ -33,4 +33,4 @@ document.addEventListener('DOMContentLoaded', function() {
     type();
 });
 
-// gallery imaGE MODAL LOGIC
+
