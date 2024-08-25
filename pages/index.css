@@ -75,6 +75,18 @@
     text-align: center;
     color: #410c1c;
 }
+.services .heading2{
+    margin-top: 2em;
+    text-align: center;
+    color: #410c1c;
+}
+@media (max-width: 768px) {
+    .services .heading{
+        margin-top: 2em;
+        text-align: center;
+        color: #410c1c;
+    }
+}
 
  .card1 {
     background-color: #c98a56fb; 
