@@ -80,7 +80,7 @@ li .nav-link{
     margin-top: 445px;
 } */
 .services .heading{
-    margin-top: 13em;
+    margin-top: 2em;
     text-align: center;
     color: #410c1c;
 }
@@ -91,7 +91,7 @@ li .nav-link{
 }
 @media (max-width: 768px) {
     .services .heading{
-        margin-top: 20em;
+        margin-top: 2em;
         text-align: center;
         color: #410c1c;
     }
