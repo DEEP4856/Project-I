@@ -85,22 +85,23 @@
                 <!-- Form Box -->
                 <div class="col-lg-6 col-md-12 form-box">
                     <h2>Get in Touch</h2>
-                    <form>
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="ce03b279-8906-4061-9d82-0692989c1e1e">
                         <div class="mb-3">
-                            <label for="name" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="name" placeholder="Your Name">
+                            <label  class="form-label">Name</label>
+                            <input name="name" type="text" class="form-control" id="name" placeholder="Your Name" required>
                         </div>
                         <div class="mb-3">
-                            <label for="email" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="email" placeholder="Your Email">
+                            <label  class="form-label">Email</label>
+                            <input name="email" type="email" class="form-control" id="email" placeholder="Your Email" required>
                         </div>
                         <div class="mb-3">
-                            <label for="" class="form-label">Phone</label>
-                            <input type="" class="form-control" id="" placeholder="Your Phone number">
+                            <label class="form-label">Phone</label>
+                            <input  name="phone" class="form-control" id="phone" placeholder="Your Phone number" required>
                         </div>
                         <div class="mb-3">
-                            <label for="message" class="form-label">Message</label>
-                            <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                            <label  class="form-label">Message</label>
+                            <textarea name="message" class="form-control" id="message" rows="4" placeholder="Your Message" required></textarea>
                         </div>
                         <button type="submit" class="btn btn-custom">Submit</button>
                     </form>
